@@ -1,0 +1,40 @@
+# Local data and generated artifacts
+data/
+output/
+models/
+
+# Model/checkpoint/feature files
+*.mat
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.ckpt
+*.pt
+*.pth
+
+# Submission/templates and contest documents kept outside git by default
+*.xlsx
+*.xls
+*.pdf
+~$*
+
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments and local config
+.env
+.venv/
+venv/
+env/
+*.log
+
+# Editor/OS files
+.DS_Store
+.idea/
+.vscode/
